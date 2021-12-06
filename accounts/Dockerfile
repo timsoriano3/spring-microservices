@@ -1,5 +1,5 @@
 #Java runtime base image
-FROM openjdk:11-slim as build
+FROM openjdk:17-slim as build
 
 #Author of image
 LABEL maintainer="soriano3.com"
