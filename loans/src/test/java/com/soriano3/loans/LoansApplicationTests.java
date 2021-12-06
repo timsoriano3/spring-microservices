@@ -3,7 +3,7 @@ package com.soriano3.loans;
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;
 
-@SpringBootTest
+@SpringBootTest(classes = LoansApplication.class)
 class LoansApplicationTests {
 
     @Test
