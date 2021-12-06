@@ -1,10 +1,10 @@
-package com.soriano3.accounts;
+package com.soriano3.loans;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;
 
-@SpringBootTest(classes = AccountsApplication.class)
-class AccountsApplicationTests {
+@SpringBootTest
+class LoansApplicationTests {
 
     @Test
     void contextLoads() {

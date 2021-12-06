@@ -1,4 +1,4 @@
-package com.soriano3.accounts;
+package com.soriano3.loans;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.EnableAutoConfiguration;
@@ -8,13 +8,13 @@ import org.springframework.context.annotation.Configuration;
 import org.springframework.data.jpa.repository.config.EnableJpaRepositories;
 
 @Configuration @EnableAutoConfiguration @ComponentScan
-@ComponentScan("com.soriano3.accounts.controller")
-@EnableJpaRepositories("com.soriano3.accounts.repository")
-@EntityScan("com.soriano3.accounts.model")
-public class AccountsApplication {
+@ComponentScan("com.soriano3.loans.controller")
+@EnableJpaRepositories("com.soriano3.loans.repository")
+@EntityScan("com.soriano3.loans.model")
+public class LoansApplication {
 
     public static void main(String[] args) {
-        SpringApplication.run(AccountsApplication.class, args);
+        SpringApplication.run(LoansApplication.class, args);
     }
 
 }
